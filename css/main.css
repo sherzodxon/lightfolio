@@ -575,4 +575,82 @@ p {
   font-size: 30px;
   line-height: 42px;
   letter-spacing: 0.64px;
+}
+
+.service {
+  margin-top: 206px;
+  margin-left: 3px;
+}
+
+.service-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-head-services {
+  width: 588px;
+}
+
+.service-list {
+  margin-top: 63px;
+}
+
+.service-item {
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.6px;
+  margin-top: 23px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+.service-item:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.service-titleb {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.64px;
+}
+
+.service-title {
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 42px;
+  letter-spacing: 0.64px;
+}
+
+.service-big-item {
+  font-size: 19px;
+  line-height: 26px;
+  letter-spacing: 0.6px;
+}
+
+.want {
+  margin-top: 256px;
+  margin-left: 4px;
+}
+
+.want-container {
+  padding: 126px 305px 128px 305px;
+  text-align: center;
+  background: rgb(255, 235, 216);
+  border-radius: 20px;
+}
+
+.want-text {
+  font-size: 57px;
+  line-height: 74px;
+  letter-spacing: 2.56px;
+  margin-bottom: 64px;
+}
+
+.want-link {
+  font-size: 37px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: 1.2px;
+  padding-left: 54px;
 }/*# sourceMappingURL=main.css.map */

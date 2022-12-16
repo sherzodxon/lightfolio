@@ -322,6 +322,7 @@ template {
 }
 
 body {
+  max-width: 1440px;
   margin: 0 auto;
   padding: 0;
   font-family: "Inter", sans-serif;
@@ -339,10 +340,12 @@ ul,
 ol {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 h1,
@@ -376,7 +379,8 @@ p {
 }
 
 .text-distance {
-  margin: 0 16px;
+  margin: 0 15px;
+  margin-right: 10px;
 }
 
 .site-title-biggest {
@@ -384,7 +388,36 @@ p {
 }
 
 .container {
-  width: 1260px;
+  width: 1268px;
   margin: 0 auto;
   padding: 0 10px;
+}
+
+.header {
+  padding-top: 25px;
+  padding-bottom: 24px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: right;
+}
+
+.header-nav {
+  margin-right: 16px;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-item {
+  margin-left: 40px;
+}
+
+.header-item-link {
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.18px;
+  color: #525252;
 }/*# sourceMappingURL=main.css.map */

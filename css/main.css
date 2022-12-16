@@ -322,7 +322,7 @@ template {
 }
 
 body {
-  max-width: 1440px;
+  width: 1440px;
   margin: 0 auto;
   padding: 0;
   font-family: "Inter", sans-serif;
@@ -420,4 +420,159 @@ p {
   line-height: 27px;
   letter-spacing: 0.18px;
   color: #525252;
+}
+
+.intro {
+  margin-top: 126px;
+}
+
+.intro-text-about {
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: 2.56px;
+  width: 825px;
+  margin-left: 2px;
+}
+
+.intro-text-gray {
+  color: #757575;
+}
+
+.feature {
+  margin-top: 180px;
+  width: 1440px;
+  padding-left: 14px;
+  padding-right: 6px;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.54px;
+  margin-left: 85px;
+  margin-bottom: 31px;
+}
+
+.feature-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-item {
+  margin-bottom: 24px;
+  background: #F7F7F7;
+  border-radius: 0 0 16px 16px;
+}
+
+.feature-item-title {
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.6px;
+  margin-top: 20px;
+  margin-left: 24px;
+}
+
+.feature-text {
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.6px;
+  color: #757575;
+  margin-left: 24px;
+  padding-bottom: 24px;
+  margin-top: 4px;
+}
+
+.feature-date {
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.54px;
+  color: #757575;
+}
+
+.about {
+  margin-top: 250px;
+  margin-left: 4px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-title {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.64px;
+}
+
+.about-text {
+  width: 589px;
+  font-size: 28px;
+  line-height: 42px;
+  letter-spacing: 0.28px;
+  margin-top: 5px;
+}
+
+.about-text-margin {
+  display: block;
+  margin-bottom: 32px;
+}
+
+.about-img {
+  margin-top: 260px;
+}
+
+.experience {
+  margin-top: 263px;
+  margin-left: 3px;
+}
+
+.experience-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience-item {
+  width: 588px;
+  padding-bottom: 49px;
+  border-bottom: 1px solid rgb(240, 240, 240);
+  margin-top: 47px;
+}
+.experience-item:first-child {
+  margin-top: 12px;
+}
+
+.experience-name {
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.6px;
+  margin-bottom: 4px;
+}
+
+.experience-job {
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 0.6px;
+  color: #525252;
+  margin-bottom: 16px;
+}
+
+.experience-date {
+  font-size: 19px;
+  line-height: 30px;
+  color: #757575;
+}
+
+.experience-title {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.64px;
 }/*# sourceMappingURL=main.css.map */

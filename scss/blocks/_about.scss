@@ -1,0 +1,32 @@
+.about {
+    margin-top: 250px;
+    margin-left: 4px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    letter-spacing: 0.64px;
+}
+
+.about-text {
+    width: 589px;
+    font-size: 28px;
+    line-height: 42px;
+    letter-spacing: 0.28px;
+    margin-top: 5px;
+}
+
+.about-text-margin {
+    display: block;
+    margin-bottom: 32px;
+}
+.about-img{
+    margin-top: 260px;
+}

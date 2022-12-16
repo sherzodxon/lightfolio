@@ -1,0 +1,48 @@
+.experience {
+    margin-top: 263px;
+    margin-left: 3px;
+}
+
+.experience-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-item {
+    width: 588px;
+    padding-bottom: 49px;
+    border-bottom: 1px solid rgba(240, 240, 240, 1);
+    margin-top: 47px;
+
+    &:first-child {
+        margin-top: 12px;
+    }
+}
+
+.experience-name {
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.6px;
+    margin-bottom: 4px;
+}
+
+.experience-job {
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.6px;
+    color: #525252;
+    margin-bottom: 16px;
+}
+
+.experience-date {
+    font-size: 19px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.experience-title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    letter-spacing: 0.64px;
+}
